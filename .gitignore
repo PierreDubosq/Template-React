@@ -109,3 +109,6 @@ dist
 
 # Yarn
 yarn.lock
+
+# Npm
+package-lock.json
