@@ -112,3 +112,6 @@ yarn.lock
 
 # Npm
 package-lock.json
+
+# Build
+build
