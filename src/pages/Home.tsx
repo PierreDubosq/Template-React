@@ -1,7 +1,9 @@
+import HelloWorld from "../components/HelloWorld";
+
 const HomePage = () => {
   return (
     <div className="home-page">
-      <h1>Home Page</h1>
+      <HelloWorld />
     </div>
   );
 };
