@@ -102,3 +102,16 @@ dist
 
 # TernJS port file
 .tern-port
+
+# IDE
+.idea
+.vscode
+
+# Yarn
+yarn.lock
+
+# Npm
+package-lock.json
+
+# Build
+build
