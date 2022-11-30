@@ -1,4 +1,8 @@
+import { sayHello } from "../services/hello.service";
+
 const HelloWorld = () => {
+  sayHello();
+
   return (
     <div className="hello-world">
       <h1>Hello World</h1>
