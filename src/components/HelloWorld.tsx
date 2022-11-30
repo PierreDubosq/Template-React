@@ -1,11 +1,16 @@
 import { sayHello } from "../services/hello.service";
+import Hello from '../interfaces/Hello.interface';
 
-const HelloWorld = () => {
+type Props = {
+  hello: Hello
+}
+
+const HelloWorld = ({ hello }: Props) => {
   sayHello();
 
   return (
     <div className="hello-world">
-      <h1>Hello World</h1>
+      <h1>Hello World: { hello.username }</h1>
     </div>
   );
 };
